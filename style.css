@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('');
+  background-image: url('chocolate.jpg');
   background-size: cover;
 
 }
@@ -44,7 +44,7 @@ form {
   margin-top: 40px;
   position: relative;
   border-radius: 30px;
-  box-shadow: 0 0 7px 0 blueviolet;
+  box-shadow: 0 0 7px 0 rgb(73, 42, 42);
 }
 
 .buttonsForm button {
@@ -59,7 +59,7 @@ form {
   position: absolute;
   width: 108px;
   height: 100%;
-  background: linear-gradient(to right, #5956e9, #a963f8);
+  background: linear-gradient(to right, #a80c79, #d83ad5);
   border-radius: 30px;
   transition: .3s;
 }
@@ -75,7 +75,7 @@ input[type="password"] {
 }
 
 button[type="submit"] {
-  background: #660fc8;
+  background: rgb(55, 32, 32);
   color: white;
   border-radius: 30px;
   width: 100%;
