@@ -13,6 +13,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('');
+  background-size: cover;
+
 }
 
 .container {
@@ -61,7 +64,8 @@ form {
   transition: .3s;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"],
+input[type="password"] {
   border: none;
   margin-top: 40px;
   border-radius: 60px;
@@ -116,5 +120,5 @@ i {
 }
 
 .iPassword2 {
-    top: 190px;
-  }
+  top: 190px;
+}
